@@ -1,0 +1,6 @@
+{
+  "extends": "@theoverengineering/tsconfig",
+  "compilerOptions": {
+    "types": ["bun"]
+  },
+}

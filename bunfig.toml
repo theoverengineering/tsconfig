@@ -1,0 +1,3 @@
+[install.scopes]
+
+theoverengineering = { token = "$REPOSITORY_TOKEN", url = "https://npm.pkg.github.com/" }

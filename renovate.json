@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:js-lib",
+    "npm:unpublishSafe",
+    ":enableVulnerabilityAlerts",
+    ":semanticCommits",
+    ":prHourlyLimitNone",
+    ":prImmediately",
+    ":approveMajorUpdates"
+  ],
+  "automerge": true,
+  "automergeStrategy": "rebase",
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "platformAutomerge": true,
+  "rebaseWhen": "conflicted",
+  "recreateWhen": "never"
+}

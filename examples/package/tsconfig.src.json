@@ -1,0 +1,9 @@
+{
+  "extends": "@theoverengineering/tsconfig",
+  "compilerOptions": {
+    // Modules
+    "baseUrl": "./src",
+    "types": ["node"],
+  },
+  "include": ["src"]
+}

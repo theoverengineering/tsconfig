@@ -1,0 +1,25 @@
+{
+  "name": "@theoverengineering/tsconfig",
+  "license": "MIT",
+  "type": "module",
+  "exports": "./src/tsconfig.base.json",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theoverengineering/tsconfig"
+  },
+  "scripts": {
+    "format": "bunx --bun prettier . --ignore-path .gitignore",
+    "format:fix": "bun run format -- --write"
+  },
+  "peerDependencies": {
+    "typescript": "~5.6.3"
+  },
+  "devDependencies": {
+    "prettier": "3.3.3",
+    "typescript": "5.6.3"
+  }
+}
