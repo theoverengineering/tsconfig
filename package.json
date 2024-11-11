@@ -1,0 +1,20 @@
+{
+  "name": "@theoverengineering/tsconfig",
+  "type": "module",
+  "exports": "./src/tsconfig.base.json",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "prettier": "prettier . --ignore-path .gitignore",
+    "prettier:fix": "bun run format -- --write"
+  },
+  "peerDependencies": {
+    "typescript": "~5.6.3"
+  },
+  "devDependencies": {
+    "prettier": "3.3.3",
+    "typescript": "5.6.3"
+  }
+}

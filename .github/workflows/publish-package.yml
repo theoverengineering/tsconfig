@@ -1,0 +1,30 @@
+name: "Publish package on NPM"
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  release:
+    name: publish
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          registry-url: "https://npm.pkg.github.com/"
+          scope: "@${{ github.repository_owner }}"
+
+      - name: Update package version
+        run: npm version ${GITHUB_REF#refs/tags/} --no-git-tag-version
+
+      - name: Publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm publish

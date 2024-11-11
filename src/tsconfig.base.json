@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    // Type Checking
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+
+    // Modules
+    // "allowImportingTsExtensions": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noUncheckedSideEffectImports": true,
+    "resolveJsonModule": true,
+
+    // Emit
+    "noEmit": true,
+
+    // Interop Constraints
+    // "allowSyntheticDefaultImports": false,
+    "verbatimModuleSyntax": true,
+    "esModuleInterop": true,
+
+    // Language and Environment
+    "target": "ESNext",
+    
+    // Projects
+    "composite": true,
+
+    // Output Formatting
+    // Do not truncate error messages.
+    // "noErrorTruncation": true,
+
+    // Completeness
+    "skipLibCheck": true,
+  },
+}
