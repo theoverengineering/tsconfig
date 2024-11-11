@@ -1,0 +1,16 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:js-lib",
+    "npm:unpublishSafe",
+    ":enableVulnerabilityAlerts",
+    ":semanticCommits",
+    ":prHourlyLimitNone",
+    ":prImmediately",
+    ":approveMajorUpdates"
+  ],
+  "automerge": true,
+  "automergeStrategy": "rebase",
+  "platformAutomerge": true,
+  "rebaseWhen": "behind-base-branch"
+}
