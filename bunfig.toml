@@ -1,0 +1,4 @@
+[install.scopes]
+
+StanislavDalinin = { token = "$repository_token", url = "https:$NPM_REGISTRY" }
+
