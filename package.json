@@ -16,10 +16,10 @@
     "format:fix": "bun run format -- --write"
   },
   "peerDependencies": {
-    "typescript": "~5.6.3"
+    "typescript": "~5.6.3 || ~5.7.0"
   },
   "devDependencies": {
     "prettier": "3.4.2",
-    "typescript": "5.6.3"
+    "typescript": "5.7.2"
   }
 }
