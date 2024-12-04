@@ -2,6 +2,12 @@
   "name": "@theoverengineering/tsconfig",
   "license": "MIT",
   "type": "module",
+  "description": "A TypeScript configuration optimized for modern development environments.",
+  "keywords": [
+    "typescript",
+    "tsconfig",
+    "theoverengineering"
+  ],
   "exports": "./src/tsconfig.base.json",
   "files": [
     "src",
