@@ -1,6 +1,4 @@
-# TS Config
-
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+# TS Config &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![npm version](https://img.shields.io/npm/v/@theoverengineering/tsconfig.svg?style=flat)](https://www.npmjs.com/package/@theoverengineering/tsconfig) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 A TypeScript configuration optimized for modern development environments.
 
@@ -8,10 +6,10 @@ A TypeScript configuration optimized for modern development environments.
 
 This package provides a single tsconfig file with recommended settings:
 
-* Type Checking: Enables strict type checking options like noImplicitAny, strict, noUnusedLocals, etc.
-* Modules: Uses ESNext module and Bundler module resolution.
-* Interop Constraints: Enables esModuleInterop and verbatimModuleSyntax.
-* Language and Environment: Targets ESNext version of JavaScript.
+- Type Checking: Enables strict type checking options like noImplicitAny, strict, noUnusedLocals, etc.
+- Modules: Uses ESNext module and Bundler module resolution.
+- Interop Constraints: Enables esModuleInterop and verbatimModuleSyntax.
+- Language and Environment: Targets ESNext version of JavaScript.
 
 ## Installation
 
